@@ -237,9 +237,14 @@ body {
         margin: 2% 5% 5%;
     }
 
-    .contact-col {
+    .contact-col1 {
         padding: 4% 4%;
         line-height: 1;
+    }
+
+    .contact-col {
+        padding: 4% 4%;
+        line-height: 2.5;
     }
 
     strong.sub-title {
@@ -416,9 +421,14 @@ body {
         display: flex !important;
     }
 
-    .contact-col {
+    .contact-col,
+    .contact-col1 {
         margin: 0% 0% 10% 10%;
         padding: 0;
+    }
+
+    .contact-col {
+        line-height: 1;
     }
 
     strong.sub-title {
