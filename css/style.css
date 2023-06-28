@@ -205,6 +205,10 @@ body {
 .divulga-full {
     background-color: #fff;
 }
+    #title-divulga {
+        font-family: 'Montserrat', sans-serif;
+        font-size: calc(18px + 2vw);
+    }
     .row-icons-divulga {
         padding: 10% 35%;
     }
@@ -301,6 +305,10 @@ body {
     .nav-menu {
         line-height: 1;
     }
+
+    #title-divulga {
+        margin-top: 40%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -395,7 +403,7 @@ body {
     }
 
     .row-icons-divulga {
-        padding: 50% 35% 20%;
+        padding: 10% 35% 20%;
     }
 
     #p-video {
@@ -446,5 +454,9 @@ body {
 
     .nav-menu {
         line-height: 0.2;
+    }
+
+    #title-divulga {
+        margin-top: 80%;
     }
 }
